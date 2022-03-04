@@ -12,6 +12,14 @@ alias rm=trash
 #GIT
 alias ga="git add"
 alias gco="git checkout"
+alias gc="git commit"
+alias gcm="git commit -m"
+alias gs="git status"
 
 #TRIAL
 alias ez="exec zsh"
+alias fuck="sudo !!"
+alias gaa="git add ."
+alias here="explorer.exe ."
+
+#TO BE ORGANIZED

@@ -17,7 +17,7 @@ done
 bindkey '^ ' autosuggest-execute
 bindkey '  ' autosuggest-accept
 # Use antigen
-source $HOME/.antigen.zsh
+source $HOME/antigen.zsh
 
 
 # Load Antigen configurations
