@@ -7,6 +7,7 @@ if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]
 fi
 eval "$(fasd --init auto)"
 
+
 for DOTFILE in `find /home/mitch/.dotfiles/system`
 do
   [ -f $DOTFILE ] && source $DOTFILE
@@ -17,6 +18,7 @@ done
 bindkey '^ ' autosuggest-execute
 bindkey '  ' autosuggest-accept
 # Use antigen
+ANTIGEN_LOG=$HOME/tmp/antigen.log
 source $HOME/antigen.zsh
 
 
